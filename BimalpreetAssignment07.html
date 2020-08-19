@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <title>Bimalpreet-Assignment 07</title>
+		<style>
+		    #body{
+			width:100%;
+			}
+			
+		    h1{
+			text-align:center;
+			}
+			
+			.part1{
+			width:40%;
+			float:left;
+			margin:10px;
+			}
+			
+			.part2{
+			width:40%;
+			float:right;
+			margin:10px;
+			}
+		</style>
+	</head>
+	
+	<body>
+	    <div id="body">
+	        <h1>Multimedia Webpage</h1>
+			<div class="part1">
+			    <video height="200px" width="400px" controls loop>
+				    <source src="video.mp4" type="video/mp4">
+					Your browser does not support the video element.
+				</video>
+				<p>The above video plays in a loop.</p>
+				
+				<audio controls loop>
+				    <source src="iphone_7.mp3" type="audio/mp3">
+					Your browser does not support the audio element.
+				</audio>
+				<p>The above audio plays in a loop.</p>
+			</div>
+			
+			<div class="part2">
+			    <video height="200px" width="400px" controls muted>
+				    <source src="movie.mp4" type="video/mp4">
+					Your browser does not support the video element.
+				</video>
+				<p>The above video is muted and can be unmuted by clicking on the volume button.</p>
+				
+				<audio controls muted>
+				    <source src="iphone_7.mp3" type="audio/mp3">
+					Your browser does not support the audio element.
+				</audio>
+				<p>The above audio is muted and can be unmuted by clicking on the volume button.</p>
+			</div>
+		</div>
+	</body>
+</html>
